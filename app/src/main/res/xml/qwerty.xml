@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="70%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="30dp"
+    android:orientation="vertical">
+    <Row>
+        <Key android:codes="113,119" android:keyLabel="q,w" />
+        <Key android:codes="101,114" android:keyLabel="e,r" android:popupKeyboard="@xml/e" />
+
+    </Row>
+    <Row>
+        <Key android:codes="116,121" android:keyLabel="t,y" />
+        <Key android:codes="117,105" android:keyLabel="u,i" android:popupKeyboard="@xml/u"/>
+    </Row>
+    <Row>
+        <Key android:codes="111,112" android:keyLabel="o,p" android:popupKeyboard="@xml/o" />
+        <Key android:codes="97,115" android:keyLabel="a,s" android:popupKeyboard="@xml/o" />
+    </Row>
+    <Row>
+        <Key android:codes="100,102" android:keyLabel="d,f"/>
+        <Key android:codes="103,104" android:keyLabel="g,h"/>
+    </Row>
+    <Row>
+        <Key android:codes="106,107" android:keyLabel="j,k"/>
+        <Key  android:codes="108,-150" android:keyLabel="l,ñ" />
+    </Row>
+    <Row>
+        <Key android:codes="122,120" android:keyLabel="z,x" />
+        <Key android:codes="99,118" android:keyLabel="c,v" />
+    </Row>
+    <Row>
+        <Key android:codes="98,110" android:keyLabel="b,n"/>
+        <Key android:codes="109,-2" android:keyLabel="m,?"/>
+    </Row>
+    <Row>
+        <Key android:keyLabel="," />
+        <Key android:keyLabel="." />
+    </Row>
+    <Row>
+        <Key android:codes="-1" android:keyIcon="@drawable/ic_action_namecaps" />
+        <Key android:codes="-153,-2" android:keyLabel="¿,?"/>
+    </Row>
+    <Row>
+        <Key android:codes="-100" android:keyLabel="123" android:isModifier="true"/>
+        <Key android:codes="32" android:keyIcon="@drawable/ic_action_namespace" android:isRepeatable="true" />
+    </Row>
+    <Row>
+        <Key android:codes="-5" android:keyIcon="@drawable/borrar" android:isRepeatable="true" />
+        <Key android:codes="-4" android:keyIcon="@drawable/ic_action_nameenter" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

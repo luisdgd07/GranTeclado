@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GranTeclado</string>
+    <string name="comillas">"</string>
+    <string name="inte">\?</string>
+    <string name="arroba">\@</string>
+    <string name="color">Personalizar Teclado</string>
+    <string name="donar">Donar al Desarrollador</string>
+    <string name="check">Ampliar al pulsar</string>
+    <string name="ylogico"><![CDATA[&]]></string>
+    <string name="guionb">_</string>
+    <string name="guion">-</string>
+    <string name="mas">+</string>
+    <string name="slachin">\\</string>
+    <string name="por">*</string>
+    <string name="inter">¿</string>
+    <string name="paypal">paypal.me/LGonzalezduerto</string>
+    <string name="textod">Al donar al desarrollador colaboras para realizar mejoras a la app</string>
+    <string name="soporte">Soporte tecnico</string>
+    <string name="problemas">En caso de fallos en la app, hagamelo saber al correo:</string>
+    <string name="correo">luisdgd07@gmail.com</string>
+    <string name="activar">Activar teclado</string>
+    <string name="acerca">Acerca de la App</string>
+    <string name="activacion">*Para activar presione activar y luego Español Granteclado</string>
+    <string name="menor"><![CDATA[<]]></string>
+    <string name="mayor"><![CDATA[>]]></string>
+    <string name="linea">|</string>
+    <string name="curva">~</string>
+    <string name="euro">€</string>
+    <string name="lineac">¬</string>
+    <string name="procen">%</string>
+    <string name="excla">!</string>
+    <string name="excla2">¡</string>
+    <string name="cambiar">Cambiar de color</string>
+    <string name="coma">,</string>
+</resources>

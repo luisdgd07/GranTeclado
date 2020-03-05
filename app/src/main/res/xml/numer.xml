@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="70%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="40dp"
+    >
+    <Row>
+        <Key android:codes="48,49,50,51,52" android:keyLabel="0,1,2,3,4" />
+        <Key android:codes="53,54,55,56,57" android:keyLabel="5,6,7,8,9"/>
+    </Row>
+    <Row>
+        <Key android:keyLabel="@string/ylogico" android:keyEdgeFlags="left"/>
+        <Key android:codes="64" android:keyLabel="@string/arroba"/>
+        <Key android:codes="58" android:keyLabel=":"/>
+        <Key android:codes="47" android:keyLabel="/"/>
+        <Key android:keyLabel=";" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:keyLabel="@string/guionb" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="@string/guion"/>
+        <Key android:keyLabel="@string/mas"/>
+        <Key android:keyLabel="@string/slachin"/>
+        <Key android:keyLabel="@string/por" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:keyLabel="±" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="#"/>
+        <Key android:keyLabel="@string/excla"/>
+        <Key android:keyLabel="@string/excla2" />
+        <Key android:keyLabel="=" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:keyLabel="("/>
+        <Key android:keyLabel=")" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-100" android:keyLabel="ABC" android:keyEdgeFlags="left" android:keyboardMode="@xml/qwerty"/>
+        <Key android:codes="-99" android:keyLabel="simbol"/>
+        <Key android:codes="32" android:keyIcon="@drawable/ic_action_namespace" android:isRepeatable="true"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/borrar" android:isRepeatable="true"/>
+        <Key android:codes="-4" android:keyIcon="@drawable/ic_action_nameenter" android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>
